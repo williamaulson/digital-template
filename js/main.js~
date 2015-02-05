@@ -416,7 +416,7 @@ function popEmpty(avatar, emptyBubble)
 	currentBubbles = currentBubbles - 1;
 	noteArray[rollingIndex] = game.add.audio('blank');
 	rollingIndex = rollingIndex + 1;
-	pop.play(); //Possible bug!! Pop sounds may not play or only playing sound fragment.
+	pop.play();
 }
 
 //destroy method for filled note bubbles
